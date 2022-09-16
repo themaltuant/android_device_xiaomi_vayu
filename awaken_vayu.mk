@@ -17,18 +17,11 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# GApps
-TARGET_GAPPS_ARCH := arm64
-USE_GAPPS := true
-
 # Google Recorder
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Google Assistant
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-
-# Official
-AWAKEN_BUILD_TYPE := OFFICIAL
 
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
