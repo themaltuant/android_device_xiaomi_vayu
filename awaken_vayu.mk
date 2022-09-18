@@ -18,7 +18,7 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps
-USE_GAPPS := true
+#USE_GAPPS := true
 
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
